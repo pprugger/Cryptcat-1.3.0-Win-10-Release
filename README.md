@@ -4,7 +4,7 @@ Dear fellow!
 
 I changed cryptcat so it compiles on Windows 10 with Visual Studio 2017.
 The original source can be found on http://cryptcat.sourceforge.net/
-Please be aware that it compiles, but i didn't test it very well.
+**Please be aware that it compiles, but i didn't test it very well.**
 If you have bug reports please write me on github.
 
 I do not own and did not create the original code.
@@ -43,25 +43,25 @@ options:
         port numbers can be individual or ranges: m-n [inclusive]
 
 
-Code changes:
+**Code changes:**
 
-File: NETCAT.c
+**File: NETCAT.c**
 Commented lines 1704 to 1745
 Created new code after this block, because i just don't like this behavior.
 If the program is started without arguments now the help will be displayed.
 Without my changes the arguments can also be inserted AFTER the program was started.
 
-File: doexec.c
+**File: doexec.c**
 Line 440
 Changed RecvBuffer to Buffer
 RecvBuffer is not existent in the whole project, also in none of the Libraries.
 Out of the codeflow i assumed it should be Buffer.
 
-File: twofish2.cpp
+**File: twofish2.cpp**
 A few counter variables were not declarated as int, added it. 
 
 
-The whole project is compiled WITHOUT the GAPING_SECURITY_HOLE define!
+The whole project is compiled WITHOUT the **GAPING_SECURITY_HOLE** define!
 If you want to compile it with the define go to:
 Project -> Settings -> C/C++ -> Preprocessor -> Preprocessor definitions 
 and add 
