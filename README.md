@@ -46,18 +46,21 @@ options:
 **Code changes:**
 
 **File: NETCAT.c**
+
 Commented lines 1704 to 1745
 Created new code after this block, because i just don't like this behavior.
 If the program is started without arguments now the help will be displayed.
 Without my changes the arguments can also be inserted AFTER the program was started.
 
 **File: doexec.c**
+
 Line 440
 Changed RecvBuffer to Buffer
 RecvBuffer is not existent in the whole project, also in none of the Libraries.
 Out of the codeflow i assumed it should be Buffer.
 
 **File: twofish2.cpp**
+
 A few counter variables were not declarated as int, added it. 
 
 
