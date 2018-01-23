@@ -10,9 +10,13 @@ Best regards pprugger
 
 
 Usage:
+
 connect to somewhere:   cryptcat.exe [-options] hostname port[s] [ports] ... \n
+
 listen for inbound:     cryptcat.exe -l -p port [options] [hostname] [port]
+
 options:
+
         -d              detach from console, background mode
         -g gateway      source-routing hop point[s], up to 8
         -G num          source-routing pointer: 4, 8, 12, ...
