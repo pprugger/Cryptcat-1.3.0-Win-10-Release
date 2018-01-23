@@ -4,10 +4,11 @@ Dear fellow!
 
 I changed cryptcat so it compiles on Windows 10 with Visual Studio 2017.
 The original source can be found on http://cryptcat.sourceforge.net/
+
 **Please be aware that it compiles, but i didn't test it very well.**
 If you have bug reports please write me on github.
 
-I do not own and did not create the original code.
+**I do not own and did not create the original code.**
 For the Licence go to the Licence Folder!
 
 Best regards pprugger
