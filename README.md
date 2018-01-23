@@ -9,10 +9,10 @@ If you have bug reports please write me on github or to pruggi@abwesend.de
 Best regards pprugger
 
 
+
 Usage:
 
-connect to somewhere:   cryptcat.exe [-options] hostname port[s] [ports] ... \n
-
+connect to somewhere:   cryptcat.exe [-options] hostname port[s] [ports] ...
 listen for inbound:     cryptcat.exe -l -p port [options] [hostname] [port]
 
 options:
@@ -35,7 +35,7 @@ options:
         -v              verbose [use twice to be more verbose]
         -w secs         timeout for connects and final net reads
         -z              zero-I/O mode [used for scanning]
-port numbers can be individual or ranges: m-n [inclusive]
+        port numbers can be individual or ranges: m-n [inclusive]
 
 
 Code changes:
